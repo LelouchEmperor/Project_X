@@ -1,0 +1,50 @@
+/* CSS pour le corps de la page */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 150vh; /* Pour prendre 100% de la hauteur de la fenêtre */
+}
+
+/* CSS pour le contenu principal */
+.main-content {
+    flex: 1; /* Permet au contenu de s'étendre et d'occuper tout l'espace disponible */
+    padding: 20px; /* Ajoutez des marges autour du contenu principal si nécessaire */
+}
+
+/* CSS pour le footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+    width: 100%;
+}
+
+/* Style pour les titres dans le footer */
+.footer h5 {
+    color: #fff; /* Couleur du texte des titres */
+}
+
+/* Style pour les liens dans le footer */
+.footer a {
+    color: #bbb; /* Couleur des liens */
+    text-decoration: none; /* Supprimer la soulignement des liens */
+}
+
+.footer a:hover {
+    color: #fff; /* Couleur des liens au survol */
+}
+
+/* Style pour le texte dans le footer */
+.footer p {
+    color: #bbb; /* Couleur du texte normal */
+}
+
+/* Style pour la ligne horizontale dans le footer */
+.footer hr {
+    border-top-color: #555; /* Couleur de la ligne horizontale */
+}
+
+/* Style pour le texte du copyright dans le footer */
+.footer p.text-center {
+    color: #ccc; /* Couleur du texte du copyright */
+}
